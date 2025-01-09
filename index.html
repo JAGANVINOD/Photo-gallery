@@ -6,35 +6,36 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4503/4503941.png">
     <title>Image Gallery</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
+<header id="header">
+    
     <h2>IMAGE GALLERY - HOVER</h2>
 
-     <div class="img-gallery">
-        <img src="./images/firewatch-3840x2160-6982.jpg" class="img1">
-        <img src="./images/vin-diesel-3840x2160-15641.jpg" class="img2">
-        <img src="./images/green-forest-3648x2432-5696.jpg" class="img3">
-        <img src="./images/green-meadow-3840x2400-4337.jpg" class="img4">
-        <img src="./images/alexandra-daddario-4k-3840x2160-12354.jpg" class="img5">
-        <img src="./images/zion-national-park-5120x3200-3671.jpg" class="img6">
-        <img src="./images/cillian-murphy-in-peaky-blinders-5820x3880-26983.jpg" class="img7">
-        <img src="./images/sadie-sink-5120x2880-16944.jpeg" class="img8">
-        <img src="./images/arctic-fox-3894x2601-4279.jpg" class="img9">
-        <img src="./images/grand-teton-national-park-3840x2400-3658.jpg" class="img10">
-        <img src="./images/couple-5180x3458-8500.jpeg" class="img11">
-        <img src="./images/cute-children-4288x2848-1462.jpg" class="img12">
-        <img src="./images/couple-with-broken-heart-3840x2160-19853.jpg" class="img13">
-        <img src="./images/sky-3840x2400-6050.jpg" class="img14">
-        <img src="./images/zayn-malik-3600x2400-10165.jpg" class="img15">
-        <img src="./images/ana-de-armas-4k-wallpaper-3840x2160-11663.jpg" class="img16">
-        <img src="./images/heartbeat-candlestick-trading-chart-3840x2160-19445.png" class="img17">
-        <img src="./images/happy-new-year-10060x6706-3413.jpg" class="img18">
+    <div class="img-gallery" >
+       <div class="image-container"><img src="./images/firewatch-3840x2160-6982.jpg" class="img1"><p>Rotate 2D transform</p></div>
+       <div class="image-container"><img src="./images/vin-diesel-3840x2160-15641.jpg" class="img2"><p>Transform Matrix</p></div>
+       <div class="image-container"><img src="./images/green-forest-3648x2432-5696.jpg" class="img3"><p>3D transformation matrix</p></div>
+       <div class="image-container"><img src="./images/green-meadow-3840x2400-4337.jpg" class="img4"><p>Perspective-scaled Y-axis rotation</p></div>
+       <div class="image-container"><img src="./images/alexandra-daddario-4k-3840x2160-12354.jpg" class="img5"><p>2D transform Z-axis rotation</p></div>
+       <div class="image-container"><img src="./images/zion-national-park-5120x3200-3671.jpg" class="img6"><p>45-degree rotation around x-axis</p></div>
+       <div class="image-container"><img src="./images/cillian-murphy-in-peaky-blinders-5820x3880-26983.jpg" class="img7"><p>45-degree rotation by vector</p></div>
+       <div class="image-container"><img src="./images/sadie-sink-5120x2880-16944.jpeg" class="img8"><p>3D translation</p></div>
+       <div class="image-container"><img src="./images/arctic-fox-3894x2601-4279.jpg" class="img9"><p>3D rotation</p></div>
+       <div class="image-container"><img src="./images/grand-teton-national-park-3840x2400-3658.jpg" class="img10"><p>3D rotation around the Y-axis</p></div>
+       <div class="image-container"><img src="./images/couple-5180x3458-8500.jpeg" class="img11"><p>Scaling Shrink Effect</p></div>
+       <div class="image-container"><img src="./images/cute-children-4288x2848-1462.jpg" class="img12"><p>Skew transform</p></div>
+       <div class="image-container"><img src="./images/couple-with-broken-heart-3840x2160-19853.jpg" class="img13"><p>3D flip - transform</p></div>
+       <div class="image-container"><img src="./images/sky-3840x2400-6050.jpg" class="img14"><p>Scale transform</p></div>
+       <div class="image-container"><img src="./images/zayn-malik-3600x2400-10165.jpg" class="img15"><p>Blur effect transition</p></div>
+       <div class="image-container"><img src="./images/ana-de-armas-4k-wallpaper-3840x2160-11663.jpg" class="img16"><p>Enlarged Rotation</p></div>
+       <div class="image-container"><img src="./images/heartbeat-candlestick-trading-chart-3840x2160-19445.png" class="img17"><p>Opacity fade</p></div>
+       <div class="image-container"><img src="./images/happy-new-year-10060x6706-3413.jpg" class="img18"><p>Rotation transform (360deg)</p></div>
     </div>
+    </header>
 
     <div class="icon_set">
         <div class="icon">
@@ -51,5 +52,12 @@
         </div>
     </div>
     
+
+    <div class="up_arrow">
+        <a href="#header">
+         <i class="fa-solid fa-circle-arrow-up"></i>
+        </a>
+    </div>
+
 </body>
 </html>
